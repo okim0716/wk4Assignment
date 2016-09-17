@@ -59,7 +59,8 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 
-================== data transformation
+#data transformation
+==================
 
 1. Merge the training and the test sets to create one data set
 2. Extract only the measurements on the mean and standard deviation for each measurement
@@ -67,7 +68,9 @@ The complete list of variables of each feature vector is available in 'features.
 4. Approapriate labels the data set with descriptive variable names ==> dt
 5. From dt, create a independent tidy data set with the average of each variable for each activity and each subject
 
-================== in tidy dataset
+
+#in tidy dataset
+==================
 
 First dataset, dt, has Subject, Activity, and the mean and standard deviation for each measurement
 Here are the name of the variables;
