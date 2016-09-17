@@ -6,31 +6,31 @@ Tidy dataset is created from Human Activity Recognition using Smartphones Datase
 The transformation steps are as follows;
 
 1. Merges the training and the test sets to create one data set.
-## check if the data directory exist, create if not exist
-## download zip file
-## read train, test dataset
-## read features dataset
-## merge train, test dataset, and feature names
+- check if the data directory exist, create if not exist
+- download zip file
+- read train, test dataset
+- read features dataset
+- merge train, test dataset, and feature names
 
-#2. Extracts only the measurements on the mean and standard deviation for each measurement.
-## find columns with names matching mean() or std()
-## extract only the features with matching column names
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+- find columns with names matching mean() or std()
+- extract only the features with matching column names
 
-#3. Uses descriptive activity names to name the activities in the data set
-## get the activity data
-## merge activity train and test datasets
-## create activity names
+3. Uses descriptive activity names to name the activities in the data set
+- get the activity data
+- merge activity train and test datasets
+- create activity names
 
-#4. Appropriately labels the data set with descriptive variable names.
-## transform variable names using RegEx
-## read the subject data (train adn test data)
-## merge the subject tran and test data and create a list
-## merge all the subject, activity, and features data
+4. Appropriately labels the data set with descriptive variable names.
+- transform variable names using RegEx
+- read the subject data (train adn test data)
+- merge the subject tran and test data and create a list
+- merge all the subject, activity, and features data
 
-#5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-## define column name for the new dataframe
-## write the result data table into file
-## return the result data frame
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- define column name for the new dataframe
+- write the result data table into file
+- return the result data frame
 
 
 The information regarding the original dataset is the following;
