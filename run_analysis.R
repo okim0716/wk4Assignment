@@ -79,7 +79,7 @@ colnames(tmeans)[-c(1,2)]<- paste0("AVG", names(dtmeans)[-c(1,2)])
 colnames(tmeans)[1:2]<- c("subject", "activity")
 
 ## write the result data table into file
-filpath<-paste(runDir, "features_mean_of_subject_and_activity.txt", sep = "/")
+filepath<-paste(runDir, "features_mean_of_subject_and_activity.txt", sep = "/")
 write.table(tmeans, filepath, row.names = FALSE)
 
 ## return the result data frame
